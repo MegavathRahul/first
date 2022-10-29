@@ -2,6 +2,7 @@ import React from 'react'
 import { FaSignInAlt } from "react-icons/fa";
 import {Form,Button} from 'react-bootstrap';
 import singinimg from '../images/signin.svg';
+import Login from '../components/Login'
 function Signup() {
   return (
     <div>
@@ -37,7 +38,7 @@ function Signup() {
         </Form.Group>
         
         <Button variant="primary" type="submit">
-            signIn <FaSignInAlt/>
+        <a href="http://localhost:3000/login">S</a>Signup<FaSignInAlt/>
         </Button>
     </Form>
     </div>

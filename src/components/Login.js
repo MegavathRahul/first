@@ -27,7 +27,7 @@ function Login() {
         </Form.Group>
 
         <Button variant="primary" type="submit">
-            LogIn <FaSignInAlt/>
+        <a href="http://localhost:3000/main">L</a>LogIn <FaSignInAlt/>
         </Button>
     </Form>
     </div>

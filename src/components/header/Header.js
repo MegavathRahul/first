@@ -5,6 +5,7 @@ import Home from '../Home';
 import Signup from '../Signup';
 import Contactus from '../Contactus';
 import Login from '../Login';
+import Main from '../main/Main';
 import {NavLink} from 'react-router-dom';
 function Header() {
   return (
@@ -35,7 +36,7 @@ function Header() {
 
         <Route path='/contactus' element={<Contactus/>}  />
 
-
+        <Route path='/main' element={<Main/>}  />
       </Routes>
 
     </div>

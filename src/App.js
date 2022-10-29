@@ -7,9 +7,6 @@ function App() {
       <div className="content">
         <Header/>
       </div>
-      <div className="footer mt-3">
-        <Footer/>
-      </div>
     </>
   );
 }

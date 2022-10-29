@@ -8,10 +8,10 @@ import Login from '../Login';
 import {NavLink} from 'react-router-dom';
 function Header() {
   return (
-    <div>
-      <Navbar bg="dark" variant="dark">
+    <div >
+      <Navbar bg="dark" variant="dark" className='header'>
         <Container>
-          <Navbar.Brand href="#home">E-commerce</Navbar.Brand>
+          <Navbar.Brand href="#home"> Flight Booking System</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
